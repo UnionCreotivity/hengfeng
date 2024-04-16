@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 236.21 33.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-7 {
+        opacity: .7;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient-5);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient-4);
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient-6);
+      }
+
+      .cls-9 {
+        fill: url(#_未命名漸層_6);
+      }
+    </style>
+    <linearGradient id="_未命名漸層_6" data-name="未命名漸層 6" x1="236.21" y1="16.75" x2="0" y2="16.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".11" stop-color="#c3a76c"/>
+      <stop offset=".13" stop-color="#b2945d"/>
+      <stop offset=".18" stop-color="#9d7d4a"/>
+      <stop offset=".22" stop-color="#8e6c3c"/>
+      <stop offset=".27" stop-color="#856334"/>
+      <stop offset=".34" stop-color="#836032"/>
+      <stop offset=".55" stop-color="#c6ab6e"/>
+      <stop offset=".64" stop-color="#d9c07f"/>
+      <stop offset=".84" stop-color="#8c6b3b"/>
+      <stop offset="1" stop-color="#fcfad8"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="3056.07" cy="136070.62" fx="3056.07" fy="136070.62" r="9.84" gradientTransform="translate(-17538.2 51689.27) scale(5.78 -.38)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8f7737"/>
+      <stop offset=".22" stop-color="#625025"/>
+      <stop offset=".46" stop-color="#392d15"/>
+      <stop offset=".68" stop-color="#1c1409"/>
+      <stop offset=".87" stop-color="#0a0502"/>
+      <stop offset="1" stop-color="#040000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="3056.07" cy="136070.37" fx="3056.07" fy="136070.37" r="7.26" gradientTransform="translate(-17538.2 51689.27) scale(5.78 -.38)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f08226"/>
+      <stop offset=".07" stop-color="#d67321"/>
+      <stop offset=".26" stop-color="#975117"/>
+      <stop offset=".45" stop-color="#62340f"/>
+      <stop offset=".62" stop-color="#391d08"/>
+      <stop offset=".77" stop-color="#1c0d03"/>
+      <stop offset=".9" stop-color="#0a0301"/>
+      <stop offset="1" stop-color="#040000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="3056.07" cy="136070.37" fx="3056.07" fy="136070.37" r="5.33" gradientTransform="translate(-17538.2 51689.27) scale(5.78 -.38)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".12" stop-color="#d3d2d2"/>
+      <stop offset=".3" stop-color="#949393"/>
+      <stop offset=".47" stop-color="#615e5e"/>
+      <stop offset=".64" stop-color="#383535"/>
+      <stop offset=".78" stop-color="#1b1818"/>
+      <stop offset=".91" stop-color="#0a0606"/>
+      <stop offset="1" stop-color="#040000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="6447.67" cy="-57844.36" fx="6447.67" fy="-57844.36" r="9.84" gradientTransform="translate(-25773.29 -98411.44) scale(4.02 -1.7)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-5" cx="6447.67" cy="-57844.61" fx="6447.67" fy="-57844.61" r="7.26" gradientTransform="translate(-25773.29 -98411.44) scale(4.02 -1.7)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-6" cx="6447.67" cy="-57844.61" fx="6447.67" fy="-57844.61" r="5.33" gradientTransform="translate(-25773.29 -98411.44) scale(4.02 -1.7)" xlink:href="#radial-gradient-3"/>
+  </defs>
+  <g class="cls-8">
+    <g id="_圖層_2" data-name="圖層 2">
+      <g id="content">
+        <g>
+          <polygon class="cls-9" points="0 16.75 29.53 16.5 59.05 16.35 118.11 16.23 177.16 16.35 206.68 16.49 236.21 16.75 206.68 17 177.16 17.15 118.11 17.27 59.05 17.15 29.53 17 0 16.75"/>
+          <g class="cls-7">
+            <g>
+              <ellipse class="cls-2" cx="118.11" cy="17.25" rx="56.87" ry="3.74"/>
+              <ellipse class="cls-4" cx="118.11" cy="17.35" rx="41.97" ry="2.76"/>
+              <ellipse class="cls-1" cx="118.11" cy="17.35" rx="30.82" ry="2.03"/>
+            </g>
+            <g>
+              <ellipse class="cls-5" cx="115.54" cy="16.75" rx="39.52" ry="16.75"/>
+              <ellipse class="cls-3" cx="115.54" cy="17.16" rx="29.17" ry="12.36"/>
+              <ellipse class="cls-6" cx="115.54" cy="17.16" rx="21.42" ry="9.08"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

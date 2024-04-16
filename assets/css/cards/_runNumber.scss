@@ -1,0 +1,124 @@
+.run-numbers {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  background-color: #152547;
+  background-image: url(../images/run_bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media all and (max-width: 1024px) {
+    background-image: url(../images/run_bg_moblie.png);
+    padding-bottom: 23vw;
+  }
+
+  .number-logo {
+    width: 7vw;
+    mix-blend-mode: screen;
+    transform: translate3d(0, 0, 0);
+    margin: 0 auto;
+
+    @media all and (max-width: 1024px) {
+      width: 30vw;
+    }
+  }
+
+  .run-numbers-span-box {
+    margin: 0 auto;
+    font-size: 12vw;
+    background-image: url(../images/number_bg.png);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 1vw;
+
+    @media all and (max-width: 1024px) {
+      font-size: 35vw;
+      margin-top: 3vw;
+    }
+  }
+  .number-line {
+    margin: 0 auto;
+    mix-blend-mode: screen;
+    transform: translate3d(0, 0, 0);
+    width: 12vw;
+    margin-top: 1vw;
+
+    @media all and (max-width: 1024px) {
+      width: 38vw;
+    }
+  }
+
+  .run-number-done-number-logo {
+    width: 12vw;
+    mix-blend-mode: screen;
+    margin: 0 auto;
+    transform: translate3d(0, 0, 0);
+    margin-top: -7vw;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+
+    @media all and (max-width: 1024px) {
+      width: 37vw;
+      top: 35%;
+    }
+  }
+  .clip-text {
+    div {
+      div {
+        opacity: 0;
+        filter: blur(10px);
+      }
+    }
+  }
+  .run-number-done-50text {
+    margin: 0 auto;
+    font-size: 63pt;
+    color: white;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    font-family: "Noto Serif TC";
+    position: absolute;
+    opacity: 0;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @media all and (max-width: 1440px) {
+      font-size: 50pt;
+    }
+    @media all and (max-width: 1024px) {
+      font-size: 9vw;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      letter-spacing: 0.6vw;
+      top: 46%;
+    }
+  }
+
+  .run-number-done-number-line {
+    margin: 0 auto;
+    mix-blend-mode: screen;
+    width: 12vw;
+    transform: translate3d(0, 0, 0);
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+
+    @media all and (max-width: 1024px) {
+      width: 37vw;
+      top: 53%;
+    }
+  }
+}

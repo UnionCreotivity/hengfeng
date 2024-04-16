@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 544.89 431.28">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #f7f0d7;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        font-size: 102.99px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 34px;
+        letter-spacing: .05em;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: NotoSerifTC-Bold-90ms-RKSJ-H, 'Noto Serif TC';
+      }
+
+      .cls-5 {
+        font-size: 43px;
+      }
+
+      .cls-6 {
+        fill: #f7f0d7;
+        font-family: CormorantGaramond-SemiBold, 'Cormorant Garamond';
+        font-size: 57.77px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.09em;
+      }
+    </style>
+  </defs>
+  <g id="content">
+    <text class="cls-6" transform="translate(.4 162.44)"><tspan x="0" y="0">A</tspan><tspan class="cls-8" x="41.08" y="0">L</tspan><tspan class="cls-10" x="70.31" y="0">W</tspan><tspan class="cls-7" x="117.85" y="0">A</tspan><tspan class="cls-9" x="155.69" y="0">YS &amp; FOREVER</tspan></text>
+    <text class="cls-3" transform="translate(67.39 90.64)"><tspan x="0" y="0" xml:space="preserve">全坤衡峰   </tspan></text>
+    <g>
+      <text class="cls-5" transform="translate(147.96 285.41)"><tspan x="0" y="0">衡陽路100號 </tspan></text>
+      <g>
+        <line class="cls-2" x1="420" y1="276.69" x2="543.3" y2="276.69"/>
+        <line class="cls-2" x1="420" y1="268.44" x2="543.3" y2="268.44"/>
+      </g>
+      <g>
+        <line class="cls-2" x1=".4" y1="276.69" x2="123.7" y2="276.69"/>
+        <line class="cls-2" x1=".4" y1="268.44" x2="123.7" y2="268.44"/>
+      </g>
+      <g>
+        <text class="cls-4" transform="translate(100.4 346.37)"><tspan x="0" y="0" xml:space="preserve">捷運站2分鐘     2-3房</tspan></text>
+        <line class="cls-1" x1="325.17" y1="319.12" x2="325.17" y2="349.37"/>
+      </g>
+    </g>
+  </g>
+</svg>

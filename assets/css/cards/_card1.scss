@@ -1,0 +1,404 @@
+body {
+  background-size: cover;
+  background-image: url(https://ws.srl.tw/cs/2024041617153222/img/img2024041617343045.png);
+  background-image: url(../images/bg.png);
+  .card1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    @media all and (max-width: 1024px) {
+      justify-content: center;
+      height: calc(var(--vh, 1vh) * 102);
+    }
+    .c1-bg {
+      width: 100%;
+      height: 100vw;
+      left: 0vw;
+      position: absolute;
+      overflow: hidden;
+      @media all and (max-width: 1024px) {
+        display: none;
+      }
+    }
+    .c1-bg-moblie {
+      width: 100%;
+      height: 100vh;
+      top: 0px;
+      position: absolute;
+      overflow: hidden;
+      mix-blend-mode: screen;
+      transform: translate3d(0, 0, 0);
+      display: none;
+      @media all and (max-width: 1024px) {
+        display: block;
+      }
+    }
+    .content {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding-top: 14vw;
+      overflow: hidden;
+      @media all and (max-width: 1024px) {
+        flex-direction: column;
+        padding-top: 0vw;
+      }
+
+      @media all and (max-width: 500px) {
+        padding-bottom: 7vw;
+      }
+
+      .left-box {
+        display: flex;
+        @media all and (max-width: 1024px) {
+          justify-content: center;
+        }
+        // .c1-bulid {
+        //   display: flex;
+        //   width: 5vw;
+
+        // }
+        .logo-box {
+          position: relative;
+          background: linear-gradient(
+            to right,
+            #f7e191 0%,
+            #e3c04d 17%,
+            #fff4c4 33%,
+            #f2d477 53%,
+            #f6e28b 75%,
+            #e9c668 98%,
+            #e9c668 98%
+          );
+          -webkit-mask-image: url(../images/c1_bulid.svg);
+          mask-image: url(../images/c1_bulid.svg);
+          // -webkit-mask-image: url(https://ws.srl.tw/cs/2024041617153222/img/img2024041617350164.svg);
+          // mask-image: url(https://ws.srl.tw/cs/2024041617153222/img/img2024041617350164.svg);
+          mask-repeat: no-repeat;
+          width: 5.3vw;
+          overflow: hidden;
+
+          @media all and (max-width: 1440px) {
+            width: 6vw;
+            height: 18vw;
+          }
+
+          @media all and (max-width: 1024px) {
+            height: 35vw;
+            width: 12vw;
+          }
+
+          @media all and (max-width: 500px) {
+            height: 43vw;
+            width: 13vw;
+          }
+          .light {
+            position: relative;
+            z-index: 1;
+            width: 70%;
+            height: 128%;
+            background: linear-gradient(
+              to right,
+              rgba(255, 255, 255, 0) 0%,
+              rgba(255, 255, 255, 1) 50%,
+              rgba(255, 255, 255, 0) 100%
+            );
+            transform: rotate(34deg) translateX(-200%);
+            animation-name: lightMv;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+          }
+        }
+
+        @keyframes lightMv {
+          0% {
+            transform: rotate(34deg) translateX(-200%);
+          }
+          100% {
+            transform: rotate(34deg) translateX(200%);
+          }
+        }
+      }
+
+      .right-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5vw;
+        padding-top: 1vw;
+
+        @media all and (max-width: 1024px) {
+          margin-left: 0vw;
+          padding-top: 5vw;
+        }
+
+        .top-box {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+
+          .c1-logo-name {
+            width: 16vw;
+            text-align: center;
+            align-self: center;
+            @media all and (max-width: 1440px) {
+              width: 18vw;
+            }
+            @media all and (max-width: 1024px) {
+              width: 40vw;
+            }
+
+            @media all and (max-width: 500px) {
+              width: 57vw;
+            }
+          }
+
+          .c1-text {
+            font-family: "Cormorant Garamond";
+            font-size: 2.3vw;
+            color: #f7f0d7;
+            letter-spacing: 0.05em;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            margin-top: 0.3vw;
+            margin-bottom: 1.5vw;
+
+            @media all and (max-width: 1024px) {
+              font-size: 5.3vw;
+              margin-top: 3vw;
+            }
+
+            @media all and (max-width: 500px) {
+              margin-bottom: 5vw;
+              font-size: 7.3vw;
+            }
+          }
+        }
+
+        .c1-line {
+          mix-blend-mode: screen;
+          transform: translate3d(0, 0, 0);
+          width: 12vw;
+          text-align: center;
+          align-self: center;
+          margin-bottom: 1.5vw;
+
+          @media all and (max-width: 1024px) {
+            width: 32vw;
+            margin-bottom: 5vw;
+          }
+        }
+
+        .bottom-text-box {
+          color: #fff;
+          font-family: "Noto Serif TC";
+          font-weight: bold;
+          font-size: 1.2vw;
+          letter-spacing: 0.05em;
+          display: flex;
+          justify-content: center;
+          @media all and (max-width: 1440px) {
+            font-size: 1.25vw;
+          }
+          @media all and (max-width: 1024px) {
+            font-size: 4.5vw;
+          }
+          @media all and (max-width: 500px) {
+            font-size: 5vw;
+          }
+          .text-1 {
+            margin-right: 2vw;
+            position: relative;
+            @media all and (max-width: 1024px) {
+              margin-right: 3vw;
+            }
+            &:after {
+              display: block;
+              content: "";
+              position: absolute;
+              right: -1vw;
+              top: 0.4vw;
+              width: 2px;
+              height: 1.1vw;
+              background-color: #ffffff;
+              @media all and (max-width: 1440px) {
+                width: 1px;
+              }
+              @media all and (max-width: 1024px) {
+                top: 2vw;
+                width: 1px;
+                right: -1.5vw;
+                height: 3.7vw;
+              }
+            }
+          }
+          .text-2 {
+            margin-right: 2vw;
+            position: relative;
+            @media all and (max-width: 1024px) {
+              margin-right: 3vw;
+            }
+            &:after {
+              display: block;
+              content: "";
+              position: absolute;
+              right: -1vw;
+              top: 0.4vw;
+              width: 2px;
+              height: 1.1vw;
+              background-color: #ffffff;
+              @media all and (max-width: 1440px) {
+                width: 1px;
+              }
+              @media all and (max-width: 1024px) {
+                top: 2vw;
+                width: 1px;
+                right: -1.5vw;
+                height: 3.7vw;
+              }
+            }
+          }
+        }
+
+        .logo-name-box {
+          margin-top: 1vw;
+          width: 14vw;
+          align-self: center;
+          @media all and (max-width: 1440px) {
+            width: 15vw;
+          }
+          @media all and (max-width: 1024px) {
+            width: 41vw;
+            margin-top: 4vw;
+          }
+
+          @media all and (max-width: 500px) {
+            width: 50vw;
+          }
+        }
+      }
+    }
+    @keyframes wave-ani {
+      100% {
+        transform: translate(0);
+      }
+    }
+    @keyframes wave-ani2 {
+      100% {
+        transform: translate(0);
+      }
+    }
+    .wave {
+      position: relative;
+      @media all and (max-width: 500px) {
+        position: absolute;
+        bottom: 1vw;
+        overflow: hidden;
+        width: 100%;
+        height: 30vw;
+      }
+      .wave1 {
+        filter: blur(10px);
+        animation: wave-ani 35s linear infinite;
+        transform: translate(-66.8%);
+        z-index: 1;
+
+        @media all and (max-width: 1440px) {
+          filter: blur(6px);
+          height: 11vw;
+        }
+        @media all and (max-width: 1024px) {
+          height: 20vw;
+          padding-top: 5vw;
+          transform: translate(-66.6%);
+          filter: blur(0px);
+        }
+      }
+
+      .wave2 {
+        position: absolute;
+        top: 0px;
+        filter: blur(10px);
+        left: 0px;
+        animation: wave-ani2 30s linear infinite reverse;
+        z-index: 2;
+        transform: translate(-66.2%);
+        @media all and (max-width: 1440px) {
+          filter: blur(6px);
+          height: 11vw;
+        }
+        @media all and (max-width: 1024px) {
+          filter: blur(1px);
+          height: 20vw;
+          transform: translate(-66.3%);
+        }
+      }
+
+      .wave3 {
+        position: absolute;
+        top: 1vw;
+        z-index: 3;
+        animation: wave-ani 24s linear infinite;
+        transform: translate(-50%);
+        @media all and (max-width: 1440px) {
+          height: 11vw;
+          top: -1vw;
+        }
+        @media all and (max-width: 1024px) {
+          height: 20vw;
+          top: 0vw;
+        }
+      }
+
+      .wave4 {
+        position: absolute;
+        top: 0.5vw;
+        animation: wave-ani 43s linear infinite;
+        transform: translate(-66.6%);
+        animation-delay: 0.3s;
+        filter: blur(3px);
+        @media all and (max-width: 1440px) {
+          filter: blur(1px);
+          height: 11vw;
+          animation-delay: 0.6s;
+        }
+        @media all and (max-width: 1024px) {
+          height: 20vw;
+        }
+      }
+
+      .wave5 {
+        position: absolute;
+        top: 0vw;
+        z-index: 5;
+        animation: wave-ani 22s linear infinite reverse;
+        animation-delay: 0.1s;
+        transform: translate(-33.4%);
+        @media all and (max-width: 1440px) {
+          height: 11vw;
+        }
+        @media all and (max-width: 1024px) {
+          height: 20vw;
+        }
+      }
+
+      .wave6 {
+        position: absolute;
+        top: 0px;
+        z-index: 2;
+        animation: wave-ani 40s linear infinite;
+
+        // transform: translate(-60%);
+        transform: translate(-60.5%);
+        @media all and (max-width: 1440px) {
+          height: 11vw;
+        }
+      }
+    }
+  }
+}

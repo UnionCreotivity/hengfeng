@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 125.94 7.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: url(#_未命名漸層_10);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: url(#_未命名漸層_10-2);
+      }
+    </style>
+    <linearGradient id="_未命名漸層_10" data-name="未命名漸層 10" x1="6682.67" y1="43.94" x2="6805" y2="43.94" gradientTransform="translate(6808.61 47.44) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".53" stop-color="#fff" stop-opacity=".54"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_10-2" data-name="未命名漸層 10" x1="0" y1="3.5" x2="7.01" y2="3.5" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#_未命名漸層_10"/>
+  </defs>
+  <g id="_圖層_1-2" data-name="圖層 1">
+    <g>
+      <line class="cls-1" x1="125.44" y1="3.5" x2="4.1" y2="3.5"/>
+      <circle class="cls-2" cx="3.5" cy="3.5" r="3.5"/>
+    </g>
+  </g>
+</svg>
